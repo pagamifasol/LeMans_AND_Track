@@ -1,0 +1,16 @@
+* encoding="iso-8859-1"
+* DAMOS Austauschdatei
+* Erstellt von RaceCon 2.9.0.10
+* Erstellungsdatum: 21-Aug-21 12:51:04
+*
+* Projekt: MS7A_ECU
+
+KONSERVIERUNG_FORMAT 2.0
+
+FESTWERT MAPSW_DEF
+LANGNAME "default value for map switch"
+FUNKTION DASHIN
+EINHEIT_W "none"
+WERT 3
+END
+

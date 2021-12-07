@@ -1,0 +1,41 @@
+* encoding="iso-8859-1"
+* DAMOS Austauschdatei
+* Erstellt von RaceCon 2.9.0.10
+* Erstellungsdatum: 18-Jul-21 09:39:12
+*
+* Projekt: MS7A_ECU
+
+KONSERVIERUNG_FORMAT 2.0
+
+KENNLINIE CL_PWRMAX_IPFIA_pod 13 
+LANGNAME "FIA Power Control - Curve as function of mapsel_aps, to select FIA integral (1) or POD integral (0) for power control."
+EINHEIT_X "none"
+EINHEIT_W "none"
+ST/X 0 1 2 3 4 5 6 7 8 9 10 11 12 
+WERT 1 1 1 1 1 1 1 1 1 1 1 1 1 
+END
+
+KENNLINIE CL_PWRMAX_IPEN_pod 13 
+LANGNAME "FIA Power Control - Curve as function of mapsel_aps, to enable Integral part of power control."
+EINHEIT_X "none"
+EINHEIT_W "none"
+ST/X 0 1 2 3 4 5 6 7 8 9 10 11 12 
+WERT 1 1 1 1 1 1 1 1 1 1 1 1 0 
+END
+
+KENNLINIE CL_PWRMAX_IP_pod 10 
+LANGNAME "FIA Power Control - Factor that multiplies me_max to reduce the map value as long as the integral increase."
+EINHEIT_X "kJ"
+EINHEIT_W "none"
+ST/X 0 1 2 3 4 5 6 7 8 9 
+WERT 0 -0.00249999994412065 -0.00499999988824129 -0.00749999983236194 -0.00999999977648258 -0.00999999977648258 -0.0199999995529652 -0.0299999993294477 -0.0399999991059303 -0.0500000007450581 
+END
+
+KENNLINIE CL_PWRMAX_FAC_pod 13 
+LANGNAME "FIA Power Control - Curve as function of mapsel_aps, to select me_max multiplication factor to use as feedforward for power control."
+EINHEIT_X "none"
+EINHEIT_W "none"
+ST/X 0 1 2 3 4 5 6 7 8 9 10 11 12 
+WERT 0.964999973773956 0.964999973773956 0.959999978542328 0.954999983310699 0.944999992847443 0.939999997615814 0.935000002384186 0.930000007152557 0.925000011920929 0.920000016689301 0.910000026226044 0.899999976158142 0.879999995231628 
+END
+
